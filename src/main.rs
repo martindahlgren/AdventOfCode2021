@@ -1,4 +1,6 @@
+mod common;
 mod challenge_1;
+
 
 const CHALLENGES: [Option<fn()>; 1] = [
     Some(challenge_1::challenge1),
