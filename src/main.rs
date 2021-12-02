@@ -1,9 +1,11 @@
 mod common;
 mod challenge_1;
+mod challenge_2;
 
 
-const CHALLENGES: [Option<fn()>; 1] = [
+const CHALLENGES: [Option<fn()>; 2] = [
     Some(challenge_1::challenge1),
+    Some(challenge_2::challenge2),
 ];
 
 
