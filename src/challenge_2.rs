@@ -27,7 +27,6 @@ fn parse_position(command: &str) -> Position {
     let command = capture.get(1).unwrap().as_str();
     let amount: i32 = capture.get(2).unwrap().as_str().parse().unwrap();
 
-    let pos = Position::default();
     match command {
         "forward" => Position{horizontal: amount, depth: 0},
         "down" => Position{horizontal: 0, depth: amount},
