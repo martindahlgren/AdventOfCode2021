@@ -26,7 +26,6 @@ pub fn challenge6() {
         fish_counters[6] += fish_counters[8];
     }
 
-    println!("{:?}", fish_counters);
     let nr_fish: u64 = fish_counters.into_iter().map(|x| x as u64).sum();
 
     println!("Number of fish after {} days: {}", DAYS, nr_fish);
