@@ -6,8 +6,9 @@ mod challenge_4;
 mod challenge_5;
 mod challenge_6;
 mod challenge_7;
+mod challenge_8;
 
-const CHALLENGES: [Option<fn()>; 7] = [
+const CHALLENGES: [Option<fn()>; 8] = [
     Some(challenge_1::challenge1),
     Some(challenge_2::challenge2),
     Some(challenge_3::challenge3),
@@ -15,6 +16,7 @@ const CHALLENGES: [Option<fn()>; 7] = [
     Some(challenge_5::challenge5),
     Some(challenge_6::challenge6),
     Some(challenge_7::challenge7),
+    Some(challenge_8::challenge8),
 
 ];
 
